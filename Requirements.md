@@ -34,6 +34,7 @@ Turn-based game
     - Objects behavior
     - Resources
     
+    
 1. Game logic:
     `@vovan`
     - Initializing game
