@@ -1,6 +1,6 @@
 
 
-class VisualObject: #for Daragan ONLY
+class VisualObject:
     def __init__(self):
         self._children = []
 

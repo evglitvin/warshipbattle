@@ -1,12 +1,11 @@
-from src.core.ship.orientation import Orientation
+from src.base.gameobject import VisualObject
 from src.core.ship.ship_state import ShipState
-from src.core.visual import Visual
 
 
-class Ship(Visual):
+class Ship(VisualObject):
     def __init__(self, initial_position, size, orientation):
         super(Ship, self).__init__()
-        self.orientation: Orientation = orientation
+        self.orientation = orientation
         self.size: int = size
         # need to create position type
         # (complex object of initial_point + orientation?)
