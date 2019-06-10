@@ -1,8 +1,32 @@
 """
 @startuml
-class User
-User -> Field
+interface VisualObject{
++ draw()
+}
+class Field implements VisualObject{
+    + Int width
+    + Int height
+    + objects[]
+    + draw()
+}
+
+class Player implements VisualObject{
+    Field field
+}
+
+
+Player -> Field
+
+class Warship implements VisualObject{
+    + Int size
+    + draw()
+}
+
+Warship <- Field
+
 @enduml
+
+
 """
 from src.base.gameobject import VisualObject
 

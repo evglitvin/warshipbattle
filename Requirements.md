@@ -20,6 +20,7 @@ Turn-based game
         
 1. Network manager
     - Server
+        - Database (sqlalchemy) `@smushtyn`
     - Client 
 
 1. Connection modes: `@oleg`
