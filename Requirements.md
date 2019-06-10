@@ -18,10 +18,7 @@ Turn-based game
         - Session
         - Swagger
         
-1. Network manager
-    - Server
-        - Database (sqlalchemy) `@smushtyn`
-    - Client 
+1. Server 
 
 1. Connection modes: `@oleg`
     - Single game
@@ -39,6 +36,7 @@ Turn-based game
         > objects (warships, obstacles)
     - Objects behavior
     - Resources
+    
     
 1. Game logic:
     `@vovan`
