@@ -8,7 +8,8 @@ class Ship(Visual):
         super(Ship, self).__init__()
         self.orientation: Orientation = orientation
         self.size: int = size
-        # need to create position type (complex object of initial_point + orientation?)
+        # need to create position type
+        # (complex object of initial_point + orientation?)
         self._position = initial_position
         self.state = ShipState.unknown
 
