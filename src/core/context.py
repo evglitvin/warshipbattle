@@ -1,6 +1,7 @@
 from abc import ABC
 """
-Game state could be changed from the <Context> object as well as from any <BaseState> descendant
+Game state could be changed from the <Context> object 
+as well as from any <BaseState> descendant
 """
 
 
