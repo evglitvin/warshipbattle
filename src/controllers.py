@@ -4,6 +4,7 @@ class UserController:
     - provide opponents (a human or a bot)
     - switch active user
     - users queue
+    - bot player behaviour
     """
     def __init__(self):
         self.players = []
