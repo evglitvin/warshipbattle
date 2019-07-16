@@ -5,7 +5,7 @@ name: v0.1-RC1
 default:
   - field:
       - size: 10, 10
-      - ships: 1, 1, 1, 2, 2, 3, 3, 4
+      - ships: 1, 1, 1, 1, 2, 2, 2, 3, 3, 4
   - player:
       - bot:
           - strategy: "easy"
