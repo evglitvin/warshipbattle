@@ -1,8 +1,8 @@
 class UserController:
     """
     Class is responsible for:
-    - provide opponents (a human or a bot)
-    - switch active user
+    - providing opponents (a human or a bot)
+    - switching active user
     - users queue
     - bot player behaviour
     """

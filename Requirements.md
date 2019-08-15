@@ -43,7 +43,7 @@ Turn-based game
 1. Game logic:
     `@vovan`
     - Initializing game
-        - Selecting level and opponent
+        - Selecting map and opponent
     - Battle
     - Winning logic
         - winners and scores
