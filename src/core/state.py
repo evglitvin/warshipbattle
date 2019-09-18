@@ -1,38 +1,38 @@
-from abc import ABC, abstractmethod
+from abc import ABC
 
 
 class BaseState(ABC):
+
     def __repr__(cls):
         return f'[STATE] I am {cls.__name__}'
 
-    @property
-    def context(self):
-        return self._context
-
-    @context.setter
-    def context(self, context):
-        self._context = context
-
-    @abstractmethod
-    def whoami(self):
+    def draw(self):
         pass
 
-
-class BeforeGameState(BaseState):
     @classmethod
     def whoami(cls):
-        print(cls.__repr__(cls))
+        return cls.__name__
+
+
+class MainMenuState(BaseState):
+    pass
+
+
+class SetUpOnePlayerGameState(BaseState):
+    pass
+
+
+class SetUpMultiPlayerGameState(BaseState):
+    pass
 
 
 class InGameState(BaseState):
-    @classmethod
-    def whoami(cls):
-        print(cls.__repr__(cls))
-        # change the state from the <State> obj
-        cls.context.transition_to(AfterGameState)
+    pass
+
+
+class GoToMainMenuState(BaseState):
+    pass
 
 
 class AfterGameState(BaseState):
-    @classmethod
-    def whoami(cls):
-        print(cls.__repr__(cls))
+    pass

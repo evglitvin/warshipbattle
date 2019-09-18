@@ -1,6 +1,7 @@
-class BotPlayer:
-    def __init__(self, field):
-        self.field = field
+from src.core.player.player import Player
+
+
+class BotPlayer(Player):
 
     def play(self):
         pass

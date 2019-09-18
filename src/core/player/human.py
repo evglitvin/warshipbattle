@@ -1,6 +1,7 @@
-class HumanPlayer:
-    def __init__(self, field):
-        self.field = field
+from src.core.player.player import Player
+
+
+class HumanPlayer(Player):
 
     def play(self):
         pass
