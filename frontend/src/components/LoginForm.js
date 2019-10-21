@@ -24,7 +24,7 @@ const LoginForm = props => {
   };
 
   return (
-    <Form fluid onSubmit={submitFormHadler}>
+    <Form onSubmit={submitFormHadler}>
       <Form.Input
         placeholder="Username"
         icon="user"
