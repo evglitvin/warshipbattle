@@ -6,3 +6,25 @@
   flex-direction: column;
   text-align: center;
 }
+
+.field {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(50px, 1fr));
+  grid-template-rows: repeat(10, minmax(50px, 1fr));
+  align-content: center;
+  grid-gap: 3px;
+}
+
+.field-part {
+  border: 1px solid lightgray;
+  color: grey;
+  border-radius: 3px;
+  align-self: center;
+  line-height: 50px;
+}
+
+.field-part:hover {
+  cursor: pointer;
+  background-color: grey;
+  color: lightgray;
+}

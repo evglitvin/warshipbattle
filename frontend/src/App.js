@@ -17,11 +17,8 @@ function App() {
   return (
     <div className="App">
       <Container>
-        <Header as="h1" color="blue">
-          Warship Battle
-        </Header>
         <div className="login">
-          {!state.isAuthenticated ? <LoginPage /> : <MainPage />}
+          {state.isAuthenticated ? <LoginPage /> : <MainPage />}
         </div>
       </Container>
     </div>
