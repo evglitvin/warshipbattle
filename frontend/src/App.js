@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 
-import { Header } from "semantic-ui-react";
+import { Header, Container } from "semantic-ui-react";
 import MainPage from "./pages/MainPage";
 import LoginPage from "./pages/LoginPage";
 
@@ -16,16 +16,14 @@ function App() {
 
   return (
     <div className="App">
-      <div className="wrapper">
-        <div className="wrap-login">
-          <Header as="h1" color="blue">
-            Warship Battle
-          </Header>
-          <div className="login">
-            {!state.isAuthenticated ? <LoginPage /> : <MainPage />}
-          </div>
+      <Container>
+        <Header as="h1" color="blue">
+          Warship Battle
+        </Header>
+        <div className="login">
+          {!state.isAuthenticated ? <LoginPage /> : <MainPage />}
         </div>
-      </div>
+      </Container>
     </div>
   );
 }

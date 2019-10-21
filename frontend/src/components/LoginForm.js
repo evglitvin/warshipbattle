@@ -42,6 +42,7 @@ const LoginForm = props => {
         onChange={inputChangeHandler}
       />
       <Form.Button type="submit" content="Login" primary fluid />
+      <div></div>
     </Form>
   );
 };
