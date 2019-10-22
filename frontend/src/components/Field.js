@@ -10,7 +10,7 @@ const Field = props => {
     return f;
   };
 
-  return <div className="field">{field(props.width, props.height)}</div>;
+  return <div className="game-field">{field(props.width, props.height)}</div>;
 };
 
 export default Field;

@@ -7,7 +7,17 @@
   text-align: center;
 }
 
-.field {
+.w-header {
+  margin-bottom: 3rem !important;
+}
+
+.message-compact {
+  min-width: 300px !important;
+  max-width: 400px !important;
+  width: 100% !important;
+}
+
+.game-field {
   display: grid;
   grid-template-columns: repeat(10, minmax(50px, 1fr));
   grid-template-rows: repeat(10, minmax(50px, 1fr));

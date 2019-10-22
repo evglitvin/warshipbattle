@@ -27,21 +27,21 @@ const LoginForm = props => {
     <Form onSubmit={submitFormHadler}>
       <Form.Input
         placeholder="Username"
-        icon="user"
         name="username"
-        iconPosition="left"
         type="text"
+        icon="user"
+        iconPosition="left"
         onChange={inputChangeHandler}
       />
       <Form.Input
         placeholder="Password"
-        icon="lock"
         name="password"
-        iconPosition="left"
+        icon="lock"
         type="password"
+        iconPosition="left"
         onChange={inputChangeHandler}
       />
-      <Form.Button type="submit" content="Login" primary fluid />
+      <Form.Button content="Login" primary fluid />
       <div></div>
     </Form>
   );

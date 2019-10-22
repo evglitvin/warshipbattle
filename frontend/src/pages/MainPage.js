@@ -1,5 +1,5 @@
 import React from "react";
-import { Segment, Divider, Grid, Header } from "semantic-ui-react";
+import { Grid, Header } from "semantic-ui-react";
 
 import Field from "../components/Field";
 
