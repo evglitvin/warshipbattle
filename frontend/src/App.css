@@ -25,12 +25,26 @@
   grid-gap: 3px;
 }
 
+.bg-gray,
+.missed {
+  background-color: lightgray !important;
+}
+
+.bg-blue {
+  background-color: lightskyblue;
+}
+
+.injured {
+  background-color: red !important;
+}
+
 .field-part {
   border: 1px solid lightgray;
-  color: grey;
   border-radius: 3px;
   align-self: center;
   line-height: 50px;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 .field-part:hover {

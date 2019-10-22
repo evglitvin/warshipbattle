@@ -10,13 +10,13 @@ const MainPage = props => {
         <Header as="h1" color="blue">
           Player 1
         </Header>
-        <Field width={10} height={10} />
+        <Field width={10} height={10} alien={0} />
       </Grid.Column>
       <Grid.Column>
         <Header as="h1" color="red">
           Player 2
         </Header>
-        <Field width={10} height={10} alien />
+        <Field width={10} height={10} alien={1} />
       </Grid.Column>
     </Grid>
   );

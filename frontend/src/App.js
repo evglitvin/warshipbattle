@@ -18,7 +18,11 @@ function App() {
     <div className="App">
       <Container>
         <div className="login">
-          {!state.isAuthenticated ? <LoginPage /> : <MainPage />}
+          {state.isAuthenticated ? (
+            <LoginPage isAuth={state.isAuthenticated} />
+          ) : (
+            <MainPage />
+          )}
         </div>
       </Container>
     </div>
