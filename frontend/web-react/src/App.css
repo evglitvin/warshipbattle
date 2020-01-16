@@ -1,0 +1,54 @@
+.App {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.w-header {
+  margin-bottom: 3rem !important;
+}
+
+.message-compact {
+  min-width: 300px !important;
+  max-width: 400px !important;
+  width: 100% !important;
+}
+
+.game-field {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(50px, 1fr));
+  grid-template-rows: repeat(10, minmax(50px, 1fr));
+  align-content: center;
+  grid-gap: 3px;
+}
+
+.bg-gray,
+.missed {
+  background-color: lightgray !important;
+}
+
+.bg-blue {
+  background-color: lightskyblue;
+}
+
+.injured {
+  background-color: red !important;
+}
+
+.field-part {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  align-self: center;
+  line-height: 50px;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.field-part:hover {
+  cursor: pointer;
+  background-color: grey;
+  color: lightgray;
+}
