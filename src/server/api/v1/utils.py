@@ -122,6 +122,7 @@ def users(req):
     :return: json with all registered users
     """
     users = db_helper.db_connection.query(UserModel).all()
+    response = {}
     response['users'] = [{'id': user.id, 'name': user.nickname} for user in users]
     req.serv_reply(200, response)
 
