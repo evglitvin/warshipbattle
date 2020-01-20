@@ -11,7 +11,7 @@ Turn-based game
     - Web (???)
 
 1. API:
-    `@kushnir`
+    `@smushtyn`
     - HTTP Requests
         - Accounts
         - Registration/login
